@@ -162,3 +162,66 @@ a {
   grid-row-end: 4;
   justify-self: end;
 }
+
+/* Home Hero Values */
+.hero {
+  padding-bottom: 20px;
+}
+
+.heroContainer {
+  display: flex;
+  background-color: #e3dfdc;
+}
+
+.heroHeading {
+  position: relative;
+  top: -16px;
+  margin-top: 0px;
+  margin-bottom: 25px;
+  font-family: retiro-std-24pt, sans-serif;
+  font-size: 110px;
+  font-weight: 700;
+  text-align: right;
+  line-height: 44px;
+}
+
+.heroHeading2 {
+  margin-top: 34px;
+  padding-right: 20px;
+  padding-left: 20px;
+  font-family: futura-pt, sans-serif;
+  font-size: 25px;
+  line-height: 30px;
+  font-weight: 300;
+}
+
+.herotext {
+  display: block;
+  grid-auto-columns: 1fr;
+  -ms-grid-columns: 1fr;
+  grid-template-columns: 1fr;
+  -ms-grid-rows: auto auto;
+  grid-template-rows: auto auto;
+}
+
+.herobut {
+  width: 220px;
+  float: right;
+  background-color: #4d4743;
+  font-family: retiro-std-24pt, sans-serif;
+  color: white;
+  font-size: 18px;
+  font-weight: 300;
+  text-align: center;
+  letter-spacing: 4px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 9px;
+  padding-bottom: 9px;
+}
+
+.heroImage {
+  margin-top: -49px;
+  margin-bottom: 62px;
+  margin-left: -40px;
+}
